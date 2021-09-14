@@ -12,8 +12,8 @@ public class Ejercicio1 {
 	
 	public int suma() {
 		
-		return numUno+numDos;
-		
+		return numUno+numDos; 
+	
 	}
 
 	
@@ -29,7 +29,7 @@ public class Ejercicio1 {
 			valores.numUno=input.nextInt(); 
 			valores.numDos=input.nextInt();
 			
-			System.out.print(valores.suma());
+			System.out.print("El resultado es: "+valores.suma());
 		}
 		catch(Exception e) {
 			System.out.print("Error");
